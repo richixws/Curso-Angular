@@ -1,3 +1,6 @@
 p{
-    background-color: red;
+    background-color: none;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
 }
