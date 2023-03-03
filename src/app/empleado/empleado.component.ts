@@ -15,6 +15,11 @@ export class EmpleadoComponent implements OnInit {
  /*getEdad(){
   return this.edad;
  }*/
+   habilitarCuadro=true;
+
+   usuRegistrado=false;
+  
+
   constructor() { }
 
   ngOnInit(): void {
@@ -23,4 +28,9 @@ export class EmpleadoComponent implements OnInit {
   mostrarEmpresa(value:string){
      
   }
+
+ getRegistroUsuario(){
+  this.usuRegistrado=true;
+ }
+
 }
