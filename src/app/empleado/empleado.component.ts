@@ -20,4 +20,7 @@ export class EmpleadoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mostrarEmpresa(value:string){
+     
+  }
 }

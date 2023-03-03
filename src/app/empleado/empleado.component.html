@@ -2,4 +2,8 @@
 <p>nombre del empleado es {{nombre}}</p>
 <p>apellido del empleado es {{apellido}}</p>
 <p>edad del empleado es : {{edad<18 ? "menor de edad":"mayor de edad"}}</p>
-<p>empresa del empleado es {{empresa}}</p>
+<p>empresa del empleado es : {{empresa.value}}</p>
+
+Introduce la empresa: <input type="text" #empresa (keyup)="0">
+<br>
+<!--<button type="submit" (click)="mostrarEmpresa(empresa.value)" name="boton">botton</button>-->
